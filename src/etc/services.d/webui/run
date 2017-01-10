@@ -1,0 +1,3 @@
+#!/usr/bin/execlineb -P
+/bin/busybox httpd -f -p 6801 -h /webui-aria2-master
+

@@ -1,0 +1,7 @@
+#!/usr/bin/execlineb -P
+/usr/bin/aria2c --enable-rpc \
+                --rpc-listen-all \
+                --conf-path=/etc/aria2/aria2.conf \
+                --save-session=/etc/aria2/session \
+                --input-file=/etc/aria2/session \
+                --dir=/downloads
